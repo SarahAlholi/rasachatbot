@@ -102,7 +102,7 @@ textarea-webkit-scrollbar {
     padding: 10px;
     float: right;
     margin-right: 0.5em;
-    background: #5a17ee;
+    background: #178dee;
     color: white;
     margin-bottom: 0.15em;
     font-size: 13px;
@@ -803,7 +803,7 @@ video:focus {
 
 .tap-target {
     color: #fff;
-    background: #5a17ee;
+    background: #178dee;
 }
 
 .pdf_attachment {
@@ -820,7 +820,7 @@ video:focus {
     height: 100%;
     font-size: 25px;
     padding: 7% !important;
-    background-color: #5a17ee;
+    background-color: #178dee;
     color: white;
 }
 

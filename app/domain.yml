@@ -1,23 +1,11 @@
-version: "2.0"
-
 intents:
   - greet
   - goodbye
   - affirm
   - deny
-  - begin_lead
   - mood_great
   - mood_unhappy
   - bot_challenge
-
-actions:
-  - utter_greet
-  - utter_cheer_up
-  - utter_did_that_help
-  - utter_happy
-  - utter_goodbye
-  - utter_iamabot
-  # - utter_menu
 
 responses:
   utter_greet:
@@ -51,31 +39,11 @@ responses:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "au revoir !"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-  # utter_menu:
-  # - text: "How can I help you? Please write your enquiry or choose one of the below options."
-  #   buttons:
-  #   - title: "Career Adviser"
-  #     payload: "/begin_lead"
-  #   - title: "Information system"
-  #     payload: "/begin_lead"
-  #   - title: "Facilities/events"
-  #     payload: "/begin_lead"
-  #   - title: "Course Admissions"
-  #     payload: "/begin_lead"
-  #   - title: "Campus life "
-  #     payload: "/begin_lead"
-  #   - title: "Financial aid"
-  #     payload: "/begin_lead"
-  #   - title: "Job Placements"
-  #     payload: "/begin_lead"
-  #   - title: "Contact Us"
-  #     payload: "/begin_lead"
+  - text: "I am a bot, Powered by yassine."
 
 session_config:
   session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  carry_over_slots_to_new_session: false

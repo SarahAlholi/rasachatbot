@@ -1,15 +1,44 @@
+version: "2.0"
+
 intents:
   - greet
   - goodbye
   - affirm
   - deny
+  - begin_lead
   - mood_great
   - mood_unhappy
   - bot_challenge
 
+actions:
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - utter_iamabot
+  # - utter_menu
+
 responses:
   utter_greet:
-  - text: "Hey I'm the new robot! How are you?"
+  - text: "Hello welcome to Universities Chatbot. How can I help you? Please write your enquiry or choose one of the below options."
+    buttons:
+    - title: "Career Adviser"
+      payload: "Career Adviser"
+    - title: "Information system"
+      payload: "Information system"
+    - title: "Facilities/events"
+      payload: "Facilities/events"
+    - title: "Course Admissions"
+      payload: "Course Admissions"
+    - title: "Campus life "
+      payload: "Campus lif"
+    - title: "Financial aid"
+      payload: "Financial aid"
+    - title: "Job Placements"
+      payload: "Job Placements"
+    - title: "Contact Us"
+      payload: "Contact Us"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -22,11 +51,31 @@ responses:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "au revoir !"
+  - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, Powered by yassine."
+  - text: "I am a bot, powered by Rasa."
+
+  # utter_menu:
+  # - text: "How can I help you? Please write your enquiry or choose one of the below options."
+  #   buttons:
+  #   - title: "Career Adviser"
+  #     payload: "/begin_lead"
+  #   - title: "Information system"
+  #     payload: "/begin_lead"
+  #   - title: "Facilities/events"
+  #     payload: "/begin_lead"
+  #   - title: "Course Admissions"
+  #     payload: "/begin_lead"
+  #   - title: "Campus life "
+  #     payload: "/begin_lead"
+  #   - title: "Financial aid"
+  #     payload: "/begin_lead"
+  #   - title: "Job Placements"
+  #     payload: "/begin_lead"
+  #   - title: "Contact Us"
+  #     payload: "/begin_lead"
 
 session_config:
   session_expiration_time: 60
-  carry_over_slots_to_new_session: false
+  carry_over_slots_to_new_session: true

@@ -17,7 +17,7 @@
 
 .chat_header {
     height: 60px;
-    background: rgb(90, 23, 238);
+    background: rgb(255, 168, 1);
     border-radius: 10px 10px 0px 0px;
     padding: 5px;
     font-size: 20px;
@@ -830,4 +830,3 @@ video:focus {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-

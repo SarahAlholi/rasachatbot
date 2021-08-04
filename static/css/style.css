@@ -154,7 +154,7 @@ textarea-webkit-scrollbar {
     padding: 5px;
     font-size: 20px;
     cursor: pointer;
-    color: #F0FFFF;
+    color: #add8e6;
 }
 
 .imgProfile {
@@ -192,7 +192,7 @@ textarea-webkit-scrollbar {
 
 .dropdown-content li>a,
 .dropdown-content li>span {
-    color: #F0FFFF;
+    color: #add8e6;
 }
 
 @keyframes animateElement {
@@ -271,7 +271,7 @@ textarea-webkit-scrollbar {
 
 .user_ratings {
     border-radius: .28571429rem;
-    color: #F0FFFF;
+    color: #add8e6;
     font-weight: 600;
     font-size: 15px;
 }
@@ -301,7 +301,7 @@ textarea-webkit-scrollbar {
 
 .order,
 #closeContents {
-    color: #F0FFFF;
+    color: #add8e6;
 }
 
 .metadata_2,
@@ -405,7 +405,7 @@ div.content_data::-webkit-scrollbar {
 .menuChips {
     display: block;
     background: #2c53af;
-    color: #F0FFFF;
+    color: #add8e6;
     text-align: center;
     padding: 5px;
     margin-bottom: 5px;
@@ -634,13 +634,13 @@ div.content_data::-webkit-scrollbar {
 .chip {
     background-color: white;
     border: 1px solid #2c53af;
-    color: #F0FFFF;
+    color: #add8e6;
     font-weight: bolder;
     text-align: center;
 }
 
 .chip:hover {
-    background-color: #F0FFFF;
+    background-color: #add8e6;
     color: white;
 }
 
@@ -694,7 +694,7 @@ div.content_data::-webkit-scrollbar {
 
 .collapsible-header {
     font-weight: bold;
-    color: #F0FFFF;
+    color: #add8e6;
 }
 
 ul.collapsible>li:first-child .collapsible-header {
@@ -702,7 +702,7 @@ ul.collapsible>li:first-child .collapsible-header {
 }
 
 ul.collapsible>li:last-child .collapsible-header {
-    color: #F0FFFF;
+    color: #add8e6;
     border-radius: 0px 0px 20px 20px;
 }
 
@@ -721,7 +721,7 @@ ul.collapsible>li:last-child .collapsible-body {
     float: left;
     margin-top: 5px;
     background: white;
-    color: #F0FFFF;
+    color: #black;
     box-shadow: 2px 3px 9px 0px #9a82847a;
     margin-left: 0.5em;
     padding: 15px;
@@ -735,7 +735,7 @@ ul.collapsible>li:last-child .collapsible-body {
 .botTyping>div {
     width: 10px;
     height: 10px;
-    background-color: #F0FFFF;
+    background-color: #black;
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;

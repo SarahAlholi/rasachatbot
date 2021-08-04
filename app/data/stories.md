@@ -1,8 +1,8 @@
 ## happy path
 * greet
   - utter_greet
-<!-- * mood_great
-  - utter_happy -->
+* mood_great
+  - utter_happy
 
 ## sad path 1
 * greet

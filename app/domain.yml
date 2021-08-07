@@ -14,7 +14,7 @@ intents:
   # - check_attendance
 
 actions:
-  - action_validate_marks
+  - validate_credentials_and_display_marks
   - action_ask_password
   - action_ask_id
 

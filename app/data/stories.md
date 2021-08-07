@@ -30,16 +30,12 @@
 * bot_challenge
   - utter_iamabot
 
-
 ## about time
 * greet
   - utter_greet
 * give_time
   - action_show_time
 
-
-
-<!-- 
 ## check marks
 * greet
   - utter_greet
@@ -49,7 +45,7 @@
   - action_ask_password
 * submitted_password
   - validate_credentials_and_display_marks
-  - utter_goodbye -->
+  - utter_goodbye
 
 
 <!-- ## check attendence

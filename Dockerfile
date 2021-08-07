@@ -1,4 +1,3 @@
-FROM rasa/rasa:1.9.3
 FROM rasa/rasa-sdk:2.0.0a1
 
 COPY app /app

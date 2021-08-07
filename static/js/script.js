@@ -25,15 +25,15 @@ $(document).ready(function() {
 
 
     //enable this if u have configured the bot to start the conversation.
-    // showBotTyping();
-    //$("#userInput").prop('disabled', true);
+    showBotTyping();
+    $("#userInput").prop('disabled', true);
 
     //global variables
     action_name = "action_greet_user";
     user_id = "jitesh97";
 
     //if you want the bot to start the conversation
-    // action_trigger();
+    action_trigger();
 
 })
 
@@ -180,8 +180,8 @@ function send(message) {
                 // $("#userInput").prop('disabled', false);
 
                 //if you want the bot to start the conversation after the restart action.
-                // action_trigger();
-                // return;
+                action_trigger();
+                return;
             }
 
             // if there is no response from rasa server

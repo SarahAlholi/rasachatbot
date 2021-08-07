@@ -90,7 +90,7 @@
 - Can you please tell me about the next intake
 - Tell me about the next intake
 
-## intent:check_marks
+## intent:validate_marks
 - I would like to know my marks status
 - Please tell me about my marks
 - I want to know about my marks

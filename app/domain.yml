@@ -13,6 +13,11 @@ intents:
   # - check_admission_status
   # - check_attendance
 
+actions:
+  - action_validate_marks
+  - action_ask_password
+  - action_ask_id
+
 responses:
   utter_greet:
   - text: "Hello welcome to Universities Chatbot. How can I help you? Please write your enquiry or choose one of the below options."
@@ -66,10 +71,8 @@ responses:
   # utter_admission_info:
   #   - text: "The admission for 2021 will happen in September"
 
-
     
-  # actions:
-  # - validate_marks
+
   # - action_admission_info
   # - action_ask_password
   # - action_ask_id

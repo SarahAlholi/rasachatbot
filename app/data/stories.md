@@ -34,12 +34,14 @@
 * greet
   - utter_greet
 * validate_marks
-  - utter_ask_id
+  - action_ask_id
 * submitted_id
-  - utter_ask_password
+  - action_ask_password
 * submitted_password
-  - utter_validate_marks
+  - validate_credentials_and_display_marks
   - utter_goodbye
+
+
 
 <!-- ## check attendence
 * greet

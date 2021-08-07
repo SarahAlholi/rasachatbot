@@ -59,9 +59,9 @@
   - upcoming_holidays
   - utter_goodbye
 
-## admission status
+<!-- ## admission status
 * greet
   - utter_greet
 * check_admission_status
   - action_admission_info
-  - utter_goodbye
+  - utter_goodbye -->

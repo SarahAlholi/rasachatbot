@@ -10,7 +10,7 @@ intents:
   - check_attendance
   - submitted_id
   - check_upcoming_holidays
-  - check_marks
+  - validate_marks
   - check_admission_status
 
 responses:

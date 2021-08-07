@@ -7,11 +7,11 @@ intents:
   - mood_unhappy
   - bot_challenge
   - submitted_password
-  - check_attendance
   - submitted_id
-  - check_upcoming_holidays
   - validate_marks
-  - check_admission_status
+  # - check_upcoming_holidays
+  # - check_admission_status
+  # - check_attendance
 
 responses:
   utter_greet:
@@ -55,21 +55,24 @@ responses:
   - text: "I am a bot, Powered by Sarah."
 
   utter_ask_id:
-    - text: Please enter your University id number
+    - text: "Please enter your University id number"
 
   utter_ask_password:
-    - text: Please enter your password
+    - text: "Please enter your password"
 
   utter_admission_info:
-    - text: The admission for 2021 will happen in September
+    - text: "The admission for 2021 will happen in September"
+
+  utter_validate_marks:
+    - text: "your grade is A"
     
-  actions:
-  - validate_marks
-  - action_admission_info
-  - action_ask_password
-  - action_ask_id
-  - validate_attendance
-  - upcoming_holidays
+  # actions:
+  # - validate_marks
+  # - action_admission_info
+  # - action_ask_password
+  # - action_ask_id
+  # - validate_attendance
+  # - upcoming_holidays
 
 session_config:
   session_expiration_time: 60

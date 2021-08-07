@@ -33,12 +33,12 @@
 ## check marks
 * greet
   - utter_greet
-* check_marks
+* validate_marks
   - utter_ask_id
 * submitted_id
   - utter_ask_password
 * submitted_password
-  - validate_marks
+  - utter_validate_marks
   - utter_goodbye
 
 <!-- ## check attendence

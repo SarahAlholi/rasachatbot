@@ -25,7 +25,8 @@ class ActionMarks(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
             content = "Marks"
-            
+            dispatcher.utter_message(text=content)
+            return []
             # messages = []
             # for event in (list(tracker.events)):
             #     if event.get("event") == "user":

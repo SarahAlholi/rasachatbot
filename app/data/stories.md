@@ -29,3 +29,39 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## check marks
+* greet
+  - utter_greet
+* check_marks
+  - action_ask_id
+* submitted_id
+  - action_ask_password
+* submitted_password
+  - validate_marks
+  - utter_goodbye
+
+## check attendence
+* greet
+  - utter_greet
+* check_attendance
+  - action_ask_id
+* submitted_id
+  - action_ask_password
+* submitted_password
+  - validate_attendance
+  - utter_goodbye
+
+## upcoming holidays
+* greet
+  - utter_greet
+* check_upcoming_holidays
+  - upcoming_holidays
+  - utter_goodbye
+
+## admission status
+* greet
+  - utter_greet
+* check_admission_status
+  - action_admission_info
+  - utter_goodbye

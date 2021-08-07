@@ -34,14 +34,14 @@
 * greet
   - utter_greet
 * check_marks
-  - action_ask_id
+  - utter_ask_id
 * submitted_id
-  - action_ask_password
+  - utter_ask_password
 * submitted_password
   - validate_marks
   - utter_goodbye
 
-## check attendence
+<!-- ## check attendence
 * greet
   - utter_greet
 * check_attendance
@@ -59,7 +59,7 @@
   - upcoming_holidays
   - utter_goodbye
 
-<!-- ## admission status
+## admission status
 * greet
   - utter_greet
 * check_admission_status

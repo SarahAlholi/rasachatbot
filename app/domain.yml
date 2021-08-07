@@ -11,7 +11,7 @@ intents:
   - submitted_id
   - check_upcoming_holidays
   - check_marks
-  # - check_admission_status
+  - check_admission_status
 
 responses:
   utter_greet:
@@ -52,7 +52,7 @@ responses:
   - text: "Have a good day!!"
 
   utter_iamabot:
-  - text: "I am a bot, Powered by Rasa."
+  - text: "I am a bot, Powered by Sarah."
 
   utter_ask_id:
     - text: Please enter your University id number
@@ -60,12 +60,12 @@ responses:
   utter_ask_password:
     - text: Please enter your password
 
-  # utter_admission_info:
-    # - text: The admission for 2021 will happen in September
+  utter_admission_info:
+    - text: The admission for 2021 will happen in September
     
   actions:
   - validate_marks
-  # - action_admission_info
+  - action_admission_info
   - action_ask_password
   - action_ask_id
   - validate_attendance

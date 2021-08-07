@@ -74,6 +74,13 @@
 - am I talking to a bot?
 - am I talking to a human?
 
+## intent:give_time
+- what is the time?
+- can you tell me what time is it 
+- time now
+- got the time
+- tell me the time
+
 ## intent:check_upcoming_holidays
 - I would like to know about events for this month
 - Show me this month's holidays

@@ -27,6 +27,17 @@ class ActionMarks(Action):
             content = "Marks"
             dispatcher.utter_message(text=content)
             return []
+
+class ActionTime(Action):
+
+    def name(self) -> Text:
+        return "action_show_time"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+            dispatcher.utter_message(text=f"{dt.datetime.now()}")
+            return []
             # messages = []
             # for event in (list(tracker.events)):
             #     if event.get("event") == "user":

@@ -9,6 +9,7 @@ intents:
   - submitted_password
   - submitted_id
   - validate_marks
+  - give_time
   # - check_upcoming_holidays
   # - check_admission_status
   # - check_attendance
@@ -17,6 +18,7 @@ actions:
   - validate_credentials_and_display_marks
   - action_ask_password
   - action_ask_id
+  - action_show_time
 
 responses:
   utter_greet:

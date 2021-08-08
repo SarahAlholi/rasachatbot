@@ -46,7 +46,6 @@
 ## User wants to check admission status
 * greet
   - utter_greet
-* check_admission_status
-  - user_wants_to_check_admission_status
+* user_wants_to_check_admission_status
   - action_admission_info
   - utter_goodbye

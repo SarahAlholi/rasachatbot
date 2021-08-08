@@ -81,14 +81,14 @@
 - got the time
 - tell me the time
 
-## intent:check_upcoming_holidays
+## intent:user_wants_to_check_upcoming_holidays
 - I would like to know about events for this month
 - Show me this month's holidays
 - When is my next holiday
 - I want to know about holidays
 - Can you please tell me about upcoming holidays
 
-## intent:check_admission_status
+## intent:user_wants_to_check_admission_status
 - Tell me about admissions
 - When will admissions happen
 - When is the next intake
@@ -97,7 +97,7 @@
 - Can you please tell me about the next intake
 - Tell me about the next intake
 
-## intent:validate_credentials_and_display_marks
+ <!-- ## intent:validate_credentials_and_display_marks
 - I would like to know my marks status
 - Please tell me about my marks
 - I want to know about my marks
@@ -265,4 +265,4 @@
 - Si1ZX1831er
 - Ak1ZX3726sh
 - Di1ZX4727ar
-- Ni1ZX2342in
+- Ni1ZX2342in --> 

@@ -8,17 +8,14 @@ intents:
   - bot_challenge
   - submitted_password
   - submitted_id
-  - validate_marks
   - give_time
-  # - check_upcoming_holidays
-  # - check_admission_status
-  # - check_attendance
+  - user_wants_to_check_upcoming_holidays
+  - user_wants_to_check_admission_status
 
 actions:
-  - validate_credentials_and_display_marks
-  - action_ask_password
-  - action_ask_id
   - action_show_time
+  - display_upcoming_holidays
+  - action_admission_info
 
 responses:
   utter_greet:
@@ -61,25 +58,8 @@ responses:
   utter_iamabot:
   - text: "I am a bot, Powered by Sarah."
 
-  utter_ask_id:
-    - text: "Please enter your University id number"
-
-  utter_ask_password:
-    - text: "Please enter your password"
-
-  utter_validate_marks:
-    - text: "your grade is A"
-
-  # utter_admission_info:
-  #   - text: "The admission for 2021 will happen in September"
-
-    
-
-  # - action_admission_info
-  # - action_ask_password
-  # - action_ask_id
-  # - validate_attendance
-  # - upcoming_holidays
+  utter_admission_info:
+    - text: "The admission for 2021 will happen in September"
 
 session_config:
   session_expiration_time: 60

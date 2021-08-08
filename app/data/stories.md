@@ -36,39 +36,17 @@
 * give_time
   - action_show_time
 
-## check marks
+## User wants to check upcoming holidays
 * greet
   - utter_greet
-* validate_marks
-  - action_ask_id
-* submitted_id
-  - action_ask_password
-* submitted_password
-  - validate_credentials_and_display_marks
+* user_wants_to_check_upcoming_holidays
+  - display_upcoming_holidays
   - utter_goodbye
 
-
-<!-- ## check attendence
-* greet
-  - utter_greet
-* check_attendance
-  - action_ask_id
-* submitted_id
-  - action_ask_password
-* submitted_password
-  - validate_attendance
-  - utter_goodbye
-
-## upcoming holidays
-* greet
-  - utter_greet
-* check_upcoming_holidays
-  - upcoming_holidays
-  - utter_goodbye
-
-## admission status
+## User wants to check admission status
 * greet
   - utter_greet
 * check_admission_status
+  - user_wants_to_check_admission_status
   - action_admission_info
-  - utter_goodbye -->
+  - utter_goodbye
